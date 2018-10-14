@@ -5,6 +5,6 @@ then
         kill -9 $TEST_PIDS
 fi
 
-python aliceTest.py &
-python bobTest.py &
-#python eveTest.py &
+python alice.py &
+python bob.py &
+#python eve.py &
